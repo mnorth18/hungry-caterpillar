@@ -6,16 +6,22 @@
   <title></title>
   <meta name="viewport" content="initial-scale=1">
   <link rel="stylesheet" href="./styles/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <!-- The body is the container for a web page's content.  -->
 <body>
-  caterpillar is hungry
+<div class="splash"> </div>
 
   <video autoplay muted loop id="quiche_1">
     <source src="assets/quiche_1.mp4" type="video/mp4">
   </video>
 
 
-  <script src="./js/book.js"></script>
+
+  <script type= "text/javascript">
+   $(document).ready(function(){
+     $(".splash").fadeOut('slow');
+   });
+  </script>
 </body>
 </html>

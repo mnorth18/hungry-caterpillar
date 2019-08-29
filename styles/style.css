@@ -1,18 +1,31 @@
-/* Format for applying styling rules */
-[selector] {
-  [property]: [value];
-}
+
 
 /* Global Styles go here */
 body {
   background: white;
   color: black;
+  margin: 0;
+  padding: 0;
 }
 
 #quiche_1 {
-  position: fixed;
+  position: relative;
   right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  object-fit: cover;
+  z-index: 50;
+}
+
+.splash {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 100;
+
 }
