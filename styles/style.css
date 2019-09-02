@@ -1,4 +1,6 @@
-
+html {
+  cursor: url("../assets/cursor.png") 90 50, pointer;
+}
 
 /* Global Styles go here */
 body {
@@ -27,5 +29,13 @@ body {
   left: 0;
   background-color: #fff;
   z-index: 100;
+
+}
+
+#splashcater {
+
+  display: block;
+  margin: auto auto;
+  margin-top: 45vh;
 
 }
