@@ -144,6 +144,24 @@ body {
   animation-duration: 18s;
 }
 
+.fourth-fruit-container {
+  position: absolute;
+  top: 380px;
+  right: 950px;
+  z-index: 90;
+  animation-name: fourth-fruit-eaten;
+  animation-duration: 21s;
+}
+
+.fifth-fruit-container {
+  position: absolute;
+  top: 380px;
+  right: 950px;
+  z-index: 90;
+  animation-name: fifth-fruit-eaten;
+  animation-duration: 23s;
+}
+
 .first-fruit-img {
   position: absolute;
   top: 100px:
@@ -155,6 +173,16 @@ body {
 }
 
 .third-fruit-img {
+  position: absolute;
+  top: 100px:
+}
+
+.fourth-fruit-img {
+  position: absolute;
+  top: 100px:
+}
+
+.fifth-fruit-img {
   position: absolute;
   top: 100px:
 }
@@ -182,6 +210,16 @@ body {
 @keyframes third-fruit-eaten {
   0% {right:-500px}
   100% {right:960px}
+}
+
+@keyframes fourth-fruit-eaten {
+  0% {right:-500px}
+  100% {right:950px}
+}
+
+@keyframes fifth-fruit-eaten {
+  0% {right:-500px}
+  100% {right:950px}
 }
 
 
