@@ -118,13 +118,43 @@ body {
 .first-fruit-container {
   position: absolute;
   top: 380px;
-  right: 950px;
+  right: 960px;
   z-index: 90;
   animation-name: first-fruit-eaten;
-  animation-duration: 4s;
+  animation-duration: 12s;
+}
+
+
+.second-fruit-container {
+  position: absolute;
+  top: 380px;
+  right: 960px;
+  z-index: 90;
+  animation-name: second-fruit-eaten;
+  animation-duration: 15s;
+}
+
+
+.third-fruit-container {
+  position: absolute;
+  top: 380px;
+  right: 960px;
+  z-index: 90;
+  animation-name: third-fruit-eaten;
+  animation-duration: 18s;
 }
 
 .first-fruit-img {
+  position: absolute;
+  top: 100px:
+}
+
+.second-fruit-img {
+  position: absolute;
+  top: 100px:
+}
+
+.third-fruit-img {
   position: absolute;
   top: 100px:
 }
@@ -141,8 +171,19 @@ body {
 
 @keyframes first-fruit-eaten {
   0% {right:-500px}
-  100% {right:950px}
+  100% {right:960px}
 }
+
+@keyframes second-fruit-eaten {
+  0% {right:-500px}
+  100% {right:960px}
+}
+
+@keyframes third-fruit-eaten {
+  0% {right:-500px}
+  100% {right:960px}
+}
+
 
 
 .back-home {
