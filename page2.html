@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<!-- The head of a web page defines it's metadata -->
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="initial-scale=1">
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+  <div style="width:100vw;height:100vh;"></div>
+<div class="fruit_wrapper">
+</div>
+
+<div class="directions">
+Click Here
+</div>
+
+
+<div class="back-home2">
+  <a href="index.html">Home</a>
+</div>
+
+
+ <audio id="soundbite" autoplay controls loop><source src="assets/cronch.mp3" type="audio/mp3"></audio>
+<script>
+document.addEventListener('click', musicPlay);
+function musicPlay() {
+    document.getElementById('soundbite').play();
+    document.removeEventListener('click', musicPlay);
+}
+
+function fruitMaker(){
+  var bodywidth = $("body").width();
+  var bodyheight = $("body").height();
+  var randomwidth = Math.floor(Math.random() * (bodywidth - 0 + 1) + 0);
+  var randomheight = Math.floor(Math.random() * (bodyheight - 0 + 1) + 0);
+  var randomfruit = Math.floor(Math.random() * (5 - 1 + 1) + 1);
+
+  $(".fruit_wrapper").append("<img src='assets/fruit" + randomfruit + ".svg' style='position:absolute;top:" + randomheight + "px;left:" + randomwidth + "px;'>")
+}
+
+$(".directions").click(function(){
+  $(".directions").css("visibility","hidden");
+  setInterval(function(){
+    fruitMaker()
+  }, 2000);
+
+
+});
+
+
+</script>
+</html>
