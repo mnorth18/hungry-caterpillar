@@ -80,8 +80,8 @@ body {
 .title {
   font-family: bodoni, serif;
   font-size: 3em;
-  top: 50px;
-  right: 50px;
+  top: 5%;
+  right: 4%;
   position: absolute;
   text-align: right;
   animation-name: title-animation;
@@ -98,11 +98,11 @@ body {
 
 .caterpillar-eating-container {
 
-  width: 620px;
-  height: 310px;
+  width: 70%;
+  height: 50%;
   position: absolute;
-  top: 300px;
-  left: 550px;
+  top: 30%;
+  left: 30%;
   animation-name: caterpillar-moving;
   animation-duration: 7s;
   z-index: 100;
@@ -116,8 +116,8 @@ body {
 
 .first-fruit-container {
   position: absolute;
-  top: 380px;
-  right: 960px;
+  top: 40%;
+  right: 52%;
   z-index: 90;
   animation-name: first-fruit-eaten;
   animation-duration: 12s;
@@ -126,8 +126,8 @@ body {
 
 .second-fruit-container {
   position: absolute;
-  top: 380px;
-  right: 960px;
+  top: 40%;
+  right: 52%;
   z-index: 90;
   animation-name: second-fruit-eaten;
   animation-duration: 15s;
@@ -136,8 +136,8 @@ body {
 
 .third-fruit-container {
   position: absolute;
-  top: 380px;
-  right: 960px;
+  top: 40%;
+  right: 52%;
   z-index: 90;
   animation-name: third-fruit-eaten;
   animation-duration: 18s;
@@ -145,8 +145,8 @@ body {
 
 .fourth-fruit-container {
   position: absolute;
-  top: 380px;
-  right: 950px;
+  top: 40%;
+  right: 52%;
   z-index: 90;
   animation-name: fourth-fruit-eaten;
   animation-duration: 21s;
@@ -154,8 +154,8 @@ body {
 
 .fifth-fruit-container {
   position: absolute;
-  top: 380px;
-  right: 950px;
+  top: 40%;
+  right: 52%;
   z-index: 90;
   animation-name: fifth-fruit-eaten;
   animation-duration: 23s;
@@ -187,38 +187,38 @@ body {
 }
 
 @keyframes title-animation {
-  0% {right:-500px}
-  100% {right:50px}
+  0% {right:-150%}
+  100% {right:4%}
 }
 
 @keyframes caterpillar-moving {
-  0% {left:-500px}
-  100% {left:550px}
+  0% {left:-150%}
+  100% {left:30%}
 }
 
 @keyframes first-fruit-eaten {
-  0% {right:-500px}
-  100% {right:960px}
+  0% {right:-100%}
+  100% {right:52%}
 }
 
 @keyframes second-fruit-eaten {
-  0% {right:-500px}
-  100% {right:960px}
+  0% {right:-100%}
+  100% {right:52%}
 }
 
 @keyframes third-fruit-eaten {
-  0% {right:-500px}
-  100% {right:960px}
+  0% {right:-100%}
+  100% {right:52%}
 }
 
 @keyframes fourth-fruit-eaten {
-  0% {right:-500px}
-  100% {right:950px}
+  0% {right:-100%}
+  100% {right:52%}
 }
 
 @keyframes fifth-fruit-eaten {
-  0% {right:-500px}
-  100% {right:950px}
+  0% {right:-100%}
+  100% {right:52%}
 }
 
 /* Last page begins */
@@ -339,8 +339,8 @@ body {
 
 .back-home {
   position: absolute;
-  bottom:5px;
-  right:5px;
+  bottom:2%;
+  right:2%;
   font-family: helvetica, arial, sans-serif;
   font-size: 16px;
 }
