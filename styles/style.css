@@ -222,7 +222,30 @@ body {
   100% {right:950px}
 }
 
+/* Last page begins */
 
+.story1 {
+  position:absolute;
+  left: 10px;
+  top: 10px;
+  font-family: bodoni, serif;
+  font-size: 30px;
+}
+
+.bigboi-moves {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 1000px;
+  height: 700px;
+  z-index: 100;
+
+}
+
+.bigboi-moves-img {
+
+  height:700px;
+}
 
 .back-home {
   position: absolute;
@@ -274,4 +297,7 @@ a:visited {
   top: 0;
   left: 0;
 
+}
+body {
+  min-height: 100vh;
 }
