@@ -341,16 +341,17 @@ body {
   position: absolute;
   bottom:2%;
   right:2%;
-  font-family: helvetica, arial, sans-serif;
+  font-family: bodoni, serif;
   font-size: 16px;
 }
 
 .back-home2 {
-  position:fixed;
-  top:5px;
-  right:5px;
-  font-family: helvetica, arial, sans-serif;
+  position:absolute;
+  bottom:2%;
+  right:2%;
+  font-family: bodoni, serif;
   font-size: 16px;
+  z-index: 52;
 }
 
 a:link {
